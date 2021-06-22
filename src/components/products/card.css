@@ -1,0 +1,180 @@
+
+
+:root {
+  --primary-color: aliceblue;
+
+}
+
+
+.card-arrangement{
+  margin: 2rem 1rem -5rem 1rem;
+  background: #ffffff;
+  display: inline-block;
+  padding: 2rem;
+}
+
+
+.card{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+.product{
+  margin-top: 13rem;
+}
+
+
+
+
+.card-position{
+  margin-top: 17rem;
+  margin-left: 10rem;
+
+}
+
+
+.product-rightSide{
+  align-content: flex-end;
+  flex: -50%;
+}
+
+
+.page-arrangement{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+.text-data{
+  width: 60rem;
+}
+
+.product-information{
+  margin-left: 4rem;
+}
+
+.title{
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.rating{
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
+
+.description{
+  font-size: 20px;
+  line-height: 25px;
+  color: rgb(121, 107, 107);
+}
+
+.category{
+  padding-top: 30px;
+  font-size: 20px;
+  color: blue;
+
+}
+
+.authors{
+  padding-top: 15px;
+  font-size: 20px;
+  color: rgb(121, 107, 107);
+}
+
+.price{
+  padding-top: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.addToCart{
+  margin-top: 2rem;
+  padding: 0.8rem;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  border: 2px solid rgb(148, 147, 147);
+}
+
+.addToCart:hover{
+  cursor: pointer;
+  background-color: rgb(217, 228, 236);
+  border: 3px solid rgb(148, 147, 147);
+}
+
+
+.cart{
+  padding-left: 0.5rem;
+}
+
+@media only screen and (max-width: 550px){
+
+  .text-data{
+    width: 19rem;
+  }
+
+  .product-information{
+    margin-left: 1rem;
+  }
+
+  .title{
+    /* padding-top: 2rem; */
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .description{
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  .category{
+    font-size: 15px;
+  }
+
+
+  .authors{
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  .price{
+    font-size: 15px;
+    padding-top: 20px;
+  }
+
+  .addToCart{
+    font-size: 15px;
+    padding: 0.5rem;
+  }
+
+  .card-arrangement{
+    margin-bottom: 0.5rem;
+  }
+  
+
+}
+
+
+@media only screen and (max-width: 1010px){
+  .card-position{
+    margin-top: 12rem;
+    margin-left: auto;
+    margin-bottom: 3rem;
+  }
+
+  .title{
+    padding-top: 3rem;
+  }
+
+  .card-arrangement{
+    margin-bottom: 0.5rem;
+  }
+
+}

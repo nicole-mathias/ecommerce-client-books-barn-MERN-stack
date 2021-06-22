@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&family=Mate+SC&family=PT+Serif:ital@1&display=swap');
+
+
+:root {
+    --primary-color: aliceblue;
+  
+}
+
+
+.logo{
+    height: 70px;
+}
+
+
+
+.navbar{
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 120px;
+    display: flex;
+    box-shadow: 0 10px 20px 0 rgba(12, 7, 7, 0.2);
+    position: fixed;
+    z-index: 1; /* z-index is used so that other div elements dont overlap the navbar  */
+    font-family: 'Exo', sans-serif;
+    font-family: 'Mate SC', serif;
+    font-family: 'PT Serif', serif;
+}
+
+
+.navbar .leftSide{
+    flex: 60%;
+    display: flex;
+    align-items: center; /*so that items are at the center height wise*/
+    margin-left: 60px;
+    font-weight: bold;
+    letter-spacing: 1.5px;;
+    word-spacing: 5px;
+    font-size: 35px;
+}
+
+.navbar .leftSide div:hover {
+    cursor: pointer;
+
+}
+
+.navbar .rightSide{
+    flex: 40%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; /*so that items are at the center height wise*/
+}
+
+.navbar .rightSide .links{
+    max-height: 80px;
+    margin-right: 45px;   
+}
+
+.navbar .rightSide .links:hover{
+    cursor: pointer;
+}
+
+
+.navbar .rightSide .hamburger{
+    display: none;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.navbar .rightSide .hamburger:hover{
+    cursor: pointer;
+    
+}
+
+
+.navbar .rightSide #hidden{
+    position: absolute;
+    left: 0px;
+    top: 122px;
+    max-height: 500px;
+    width: 100%;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.navbar .rightSide #hidden .symbol {
+    margin: 20px;
+    font-size: 20px;
+
+}
+
+.symbol{
+    color: rgb(138, 131, 131);
+}
+
+.symbol:hover{
+    color: black;
+}
+
+/* below will work only when screen width becomes less than 500px */
+@media only screen and (max-width: 550px){
+    .navbar .rightSide .links{
+        display: none;
+    }
+
+
+    .navbar .rightSide .hamburger{
+        display: flex;
+        font-size: 20px;
+
+        
+    }
+
+    .navbar .leftSide{
+        margin-left: 20px;
+        font-size: 25px;
+    }
+
+    .logo{
+        height: 60px;
+    }
+
+    .symbol{
+        color: black;
+
+    }
+
+}
+
+/* @media only screen and (max-width: 550px){
+    .navbar .rightSide .hamburger{
+        display: flex;
+    }
+} */

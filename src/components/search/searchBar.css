@@ -1,0 +1,37 @@
+.input-area{
+    margin-top: 12rem;
+    width: 40%;
+    border: 2px solid rgb(211, 206, 206);
+    height: 4rem;
+    padding-left: 1rem;
+    font-size: 1.8rem;
+    border-radius: 5px;
+
+    
+}
+
+.input-area:hover{
+    border: 3px solid rgb(148, 147, 147);
+}
+
+
+.button-input{
+    height: 4rem;
+    width: 5rem;
+    font-size: 2rem;
+    background-color: aliceblue;
+    border: 2px solid rgb(211, 206, 206) ;
+    border-radius: 5px;
+}
+
+.button-input:hover{
+    background-color: rgb(236, 242, 248);
+    border: 3px solid rgb(148, 147, 147);
+    cursor: pointer;
+}
+
+
+.searchBar{
+    white-space: nowrap;
+    text-align: center;   
+}

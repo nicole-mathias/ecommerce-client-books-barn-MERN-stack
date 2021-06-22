@@ -1,0 +1,26 @@
+
+
+.home{
+    margin-top: 15rem;
+}
+
+
+.home-title{
+    font-size: 27px;
+    margin-top: 8rem;
+    font-weight: bold;
+    background-color: rgb(245, 244, 244);
+    padding: 2rem;
+    border: 1px solid rgb(212, 189, 189);
+    border-radius: 5px;
+    color: rgb(102, 81, 81);
+}
+
+
+@media only screen and (max-width: 550px){
+    .home-title{
+        font-size: 16px;
+        margin-top: 3rem;
+        padding: 1rem;
+    }
+}

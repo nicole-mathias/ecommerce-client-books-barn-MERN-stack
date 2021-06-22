@@ -1,0 +1,47 @@
+.cart-page{
+    margin-top: 13rem;
+}
+
+.cart-message{
+    font-size: 20px;
+}
+
+
+.delete-button{
+    margin-top: 2rem;
+    padding: 0.5rem;
+    font-size: 16px;
+    font-weight: 550;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    border: 2px solid rgb(233, 76, 48);
+}
+
+.delete-button:hover{
+    border: 3px solid rgb(252, 42, 5);
+}
+
+.cart-title{
+    font-size: 27px;
+    margin-top: 8rem;
+    font-weight: bold;
+    background-color: rgb(245, 244, 244);
+    padding: 2rem;
+    border: 1px solid rgb(212, 189, 189);
+    border-radius: 5px;
+    color: rgb(102, 81, 81);
+}
+
+
+@media only screen and (max-width: 550px){
+    .cart-message{
+        margin-left:3.1rem;
+        width: 21rem;
+    }
+
+    .cart-title{
+        font-size: 16px;
+        margin-top: 3rem;
+        padding: 1rem;
+    }
+}

@@ -96,7 +96,7 @@ function CartPage() {
             navbar
             <div className = "cart-page card">
 
-            <button onClick = {loadRazorpay}>Payment</button>
+//             <button onClick = {loadRazorpay}>Payment</button>
                 
                 <div className = "cart-title">
                 <Icon name='cart'/> Welcome to Cart
